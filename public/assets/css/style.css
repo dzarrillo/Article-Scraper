@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/leaves-pattern.png");
+    background-size: cover;
+    /* background-repeat:no-repeat; */
+}
+
+#navbar {
+    /* rgb(119, 153, 129); */
+    background-color: black;  
+	padding: 10px 30px 10px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	overflow: hidden;
+}
+
+.navLink {
+    color: white;
+    margin-right: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 2;
+}
+
+.card-header {
+   background-color: black; 
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    border: 2px solid black;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white
+}
+
+.headlineLink:hover {
+    text-decoration: none;
+    color: green;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.articleImage {
+    width: 100%
+}
+
+.buttonColumn {
+    margin-right: 0px
+}
+
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modal-header {
+    background-color: lightslategray;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonRow {
+    margin-top: 10px
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.noteCard {
+    display: block;
+    width: 100%
+}
+
+.noteCardBody {
+    color: black
+}
